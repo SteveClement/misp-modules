@@ -154,6 +154,10 @@ systemctl daemon-reload
 systemctl enable --now misp-modules
 ~~~~
 
+## How to disable a MISP module?
+
+TODO: Describe
+
 ## How to add your own MISP modules?
 
 Create your module in [misp_modules/modules/expansion/](misp_modules/modules/expansion/), [misp_modules/modules/export_mod/](misp_modules/modules/export_mod/), or [misp_modules/modules/import_mod/](misp_modules/modules/import_mod/). The module should have at minimum three functions:
