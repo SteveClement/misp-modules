@@ -1,6 +1,13 @@
 import json
-from pyzbar import pyzbar
-import cv2
+try:
+    from pyzbar import pyzbar
+except ImportError:
+    print("pyzbar module not installed.")
+
+try:
+    import cv2
+except ImportError:
+    print("cv2 module not installed.")
 import re
 import binascii
 import np

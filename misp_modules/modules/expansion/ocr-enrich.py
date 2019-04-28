@@ -1,6 +1,9 @@
 import json
 import binascii
-import cv2
+try:
+    import cv2
+except ImportError:
+    print("cv2 module not installed.")
 import np
 import pytesseract
 
